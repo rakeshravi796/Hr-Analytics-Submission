@@ -10,7 +10,7 @@ jobs:
       - name: Set up Python 3.10
         uses: actions/setup-python@v4
         with:
-          python-version: '3.13'  # <-- specify your desired Python version here
+          python-version: '3.13.3'  # <-- specify your desired Python version here
 
       - uses: iterative/setup-cml@v1
 
